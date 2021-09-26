@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="setting"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_setting"
+        android:title="setting"
+        android:icon="@drawable/baseline_fingerprint_24"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_levela"
+        android:title="Level A1 &amp; A2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_levelb"
+        android:title="Level B1 &amp; B2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_levelb1"
+        android:title="Level B1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_levelb2"
+        android:title="Level B2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_levelc1"
+        android:title="Level C1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_levelc2"
+        android:title="Level C2"
+        app:showAsAction="never" />
+
+</menu>
